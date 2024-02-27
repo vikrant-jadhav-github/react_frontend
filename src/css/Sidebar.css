@@ -1,0 +1,24 @@
+.sidebar{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    width: 100%;
+    align-items: center;
+}
+
+.branding{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+}

@@ -1,0 +1,55 @@
+.authentication{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register{
+    display: flex;
+    gap: 2.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.register form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    padding: 1rem;
+    width: 30rem;
+    text-align: center;
+    border-radius: 2rem;
+    outline: none;
+    border: none;
+}
+
+button{
+    width: 17.5rem;
+}
+
+.login{
+    display: flex;
+    gap: 2.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}

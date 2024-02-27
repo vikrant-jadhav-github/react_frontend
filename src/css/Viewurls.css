@@ -1,0 +1,61 @@
+.viewurls{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    gap: 2.5rem;
+}
+
+.viewurls h2{
+    text-align: center;
+}
+
+.allurls{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: 85%;
+    overflow-y: scroll;
+}
+
+.url{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+}
+
+table {
+    background-color: var(--secondary-color);
+    width: 90%;
+    height: 5rem;
+    text-align: center;
+}
+
+table a{
+    font-size: medium;
+}
+
+tr{
+    height: 2.5rem;
+}
+
+tbody tr{
+    height: 5rem;
+}
+
+.column-80 {
+    width: 80%;
+}
+
+.column-20 {
+    width: 20%;
+}
+
+th, td {
+    border: 1px solid var(--hover-color);
+}
+
+th {
+    background-color: var(--hover-color);
+}
